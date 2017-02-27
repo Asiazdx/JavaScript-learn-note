@@ -1,0 +1,90 @@
+body{
+background-image: url("../imgs/bg.jpg");
+    background-size:110%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    padding: 0;
+    margin: 0;
+}
+#lists{
+    width:100%;
+    box-sizing: border-box;
+    padding:0 5%;
+    height: 500px;
+    margin: auto;
+    background: #121212;
+}
+.listCon{
+    float: left;
+    width: 22%;
+    height: 420px;
+    margin-top: 20px;
+    margin-left:4%;
+}
+.listCon:nth-child(1){
+    margin-left: 0;
+}
+.listCon a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 1s;
+    padding-top: 20px;
+}
+.listCon a:hover{
+    background-size: 120% 120%;
+}
+.listCon a h2{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    text-align:left;
+    padding-left: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.listCon a h3{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#pjt01{
+    background-image: url("../imgs/pjt01.png");
+}
+#pjt02{
+    background-image: url("../imgs/pjt02.png");
+}
+#pjt03{
+    background-image: url("../imgs/pjt03.png");
+}
+#pjt04{
+    background-image: url("../imgs/pjt04.png");
+}
+.listCon a p{
+    width: 95%;
+    margin: 0 auto;
+    background: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.listCon a p span{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}

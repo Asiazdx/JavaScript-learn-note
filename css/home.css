@@ -1,0 +1,45 @@
+#mainBody{
+    width: 100%;
+    height: 450px;
+}
+#mainBody ul{
+    width: 100%;
+    height: 100%;
+}
+#mainBody ul li{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#mainBody ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    color: #F1F1F1;
+    transition: all 1s;
+}
+#mainBody ul li a div{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 120px;
+    transition: all 1s;
+}
+#mainBody ul li a p{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    transition: all 1s;
+}
+
