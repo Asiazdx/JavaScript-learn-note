@@ -2,8 +2,6 @@ $(function(){
     /*小屏导航*/
     var clientW=$(window).width();
     var clientH=$(window).height();
-    console.log(clientW);
-    console.log(clientH);
     $(".left-son").css({
         width:clientW,
         height:clientH,
