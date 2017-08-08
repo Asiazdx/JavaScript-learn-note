@@ -71,11 +71,6 @@ a:hover {
   opacity: 1;
   position: absolute;
   z-index: 1;
-  /*background: -webkit-gradient(linear, 0 0, 0 100%, from(#0D0D0D), to(#000));
-  background: -moz-linear-gradient(top, #0D0D0D, #000);
-  background: -o-linear-gradient(top, #0D0D0D, #000);
-  background: -ms-linear-gradient(#0D0D0D, #000);
-  background: linear-gradient(#0D0D0D, #000); */
 }
 
 .loadf {
@@ -1155,6 +1150,22 @@ footer {
     border-radius: 50%;
     background-image: url(../images/ico.jpg);
     background-size: 100%;
+    -webkit-animation-name: touxiang1;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: touxiang1;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-name: touxiang1;
+    -ms-animation-duration: 2s;
+    -ms-animation-timing-function: linear;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-name: touxiang1;
+    -o-animation-duration: 2s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
     animation-name: touxiang1;
     animation-duration: 2s;
     animation-timing-function: linear;
