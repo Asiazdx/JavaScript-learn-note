@@ -1060,7 +1060,8 @@ footer {
         width: 70%;
         text-decoration: none; }
         .work .project .thumb a .over-hid {
-          overflow: hidden; }
+          overflow: hidden; 
+        }
         .work .project .thumb a .rel {
           position: relative; }
       .work .project .thumb .mask {
@@ -1103,6 +1104,7 @@ footer {
         max-width: 100%;
         height: auto; }
       .work .project .thumb img {
+        width: 100%;
         vertical-align: middle; }
       .work .project .thumb .describe {
         height: 54px;
